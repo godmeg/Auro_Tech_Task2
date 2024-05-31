@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+background-image: url("https://img.freepik.com/premium-photo/white-paper-desk-calendar-isolated-white-background_293060-3572.jpg");    background-size: cover;
+}
+#todo-head
+{
+    position: absolute;
+    top: 60px;
+    left: 265px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.main-cont
+{
+    position: absolute;
+    left: 700px;
+    top: 70px;
+    height: 100vh;
+}
+#todo-form {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 180px;
+    /* background-color:white; */
+    box-shadow: 2px 2px 2px 4px gray;
+}
+
+#new-task {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    font-size: larger;
+}
+
+#add-task-button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#todo-head-2
+{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#todo-list, #completed-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li, #completed-list li {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-list li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#todo-list li label, #completed-list li label {
+    flex: 1;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+button
+{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-weight: 900;
+    border-radius: 20px;
+}
